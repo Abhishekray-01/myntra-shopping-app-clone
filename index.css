@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex; /* used for arrange items in horizontal way*/
+  background-color:#ffffff;
+  height: 80px;
+  justify-content: space-between;/*gap dene k liye*/
+  align-items: center; /*box k ander sara item ek jise bich mai lane k liye */
+  border-bottom: 1px solid #7c7d80;
+}
+.myntra_home{
+  height:45px;
+  width: 45px;
+}
+.logo_container{
+  margin-left: 4%;/*left se space dene k liye*/
+}
+.action_bar{
+  margin-right: 4%;
+}
+.nav_bar{
+  display: flex;
+  min-width: 500px;
+  justify-content: space-between;
+
+}
+.nav_bar a{
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: rgb(14, 11, 11);
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 28px 0;
+  border-bottom:5px solid #ffffff;
+  
+   }
+.nav_bar a:hover{/* visiting effect*/
+    border-bottom:5px solid red;
+   }
+.nav_bar a sup{
+color: crimson;
+font-size: 10px;
+}
+.search_bar{
+  height: 40px;
+  min-width: 400px;
+  display: flex;
+  width: 30%;
+  align-items: center;
+  background: #f5f5f6;
+  border-radius: 15px;
+  font-weight:900px;
+}
+.search_icon{
+  height: 20px;
+  padding: 10px;
+  box-sizing: content-box;
+  background: #f5f5f6;
+}
+.search_input{
+  color: #696e79;
+  background: #f5f5f6;
+  display: inline-block;
+  flex-grow: 1;
+  height: 40px;
+  border: 0;
+  border-radius: 15px;
+  margin-left:3% ;
+}
+.action_bar{
+  display: flex;
+  min-width: 200px;
+  justify-content: space-evenly;
+}
+.action_container{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.banner_image{
+  width: 100%;
+}
+.category_heading{
+  text-transform: uppercase;
+  color: #696e79;
+  letter-spacing: .15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height:5em;
+  font-weight: 700;
+   
+}
+.category_items{
+  display: flex;
+  flex-wrap: wrap;/*adjust to next line according to the screen*/
+  justify-content: space-evenly;
+}
+.footer{
+display: flex;
+font-size: 15px;
+justify-content:space-evenly;
+}
+.online_shoping{
+font-size: 15px;
+font-weight: 5600;
+}
+.online_shoping a{
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  opacity: 0.4;
+}
